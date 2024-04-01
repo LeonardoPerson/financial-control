@@ -1,0 +1,76 @@
+.walletForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-button {
+  margin: 30px 0!important;
+}
+
+.form-button-container {
+  margin-bottom: 30px;
+}
+
+.form-item-button {
+  margin-top: 20px!important;
+}
+
+.warning-alert {
+  margin-bottom: 30px;
+}
+
+.field-container {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.hide-warning {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.2s ease, opacity 0.7s ease;
+}
+
+.show-warning {
+  opacity: 1;
+  height: 45px;
+}
+
+@media screen and (min-width: 1200px) {
+  .walletForm {
+    flex-direction: row;
+  }
+
+  .field-container {
+    margin-top: 0;
+  }
+
+  .form-button-container {
+    display: flex;
+    margin-bottom: 0;
+    width: 280px;
+  }
+
+  .form-item-button {
+    margin-top: 0!important;
+    margin-left: 10px!important;
+  }
+
+  .form-button {
+    margin: 0!important;
+    margin-left: 10px!important;
+  }
+
+  .form-field {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .warning-alert {
+    margin-bottom: 0;
+  }
+}

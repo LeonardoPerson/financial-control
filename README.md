@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+ - Esta é uma aplicação projetada para ajudar no controle financeiro, permitindo o registro e acompanhamento dos gastos;
+ - O projeto conta com uma página de login, onde deve ser inserido um formato válido de e-mail e senha contendo pelo menos 6 caracteres com ao menos uma letra maiúscula.
+ - A página interna mostra a relação de gastos inseridos pelo formulário superior;
+ - O principal objetivo desta aplicação é guardar uma referência sobre como aplicar Redux e Typescript em qualquer outro projeto. É possível adicionar dados no estado global, modificar ou excluir esses dados.  
+ - Uma api pública (https://economia.awesomeapi.com.br/json/all) é utilizada para consulta e cálculo de valores de câmbio para conversão de moeda;
+ - Os campos da página de login possuem validação para que recebam o formato correto de dado conforme o tipo de input, sendo um para e-mail e outro para a senha. Caso o formato seja inválido, o redirect não ocorre para a aplicação; Não há de fato um sistema de login, o objetivo é apenas manter uma referência para validação de campos;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt text](image-1.png)
+
+![alt text](image.png)
+
 
 ## Available Scripts
 

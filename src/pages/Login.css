@@ -1,0 +1,48 @@
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item-login {
+    width: 100%;
+}
+
+.field-login {
+    width: 100%;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.warning-field {
+    color:rgb(255, 0, 0);
+    margin-top: 5px;
+}
+
+.hide-warning {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: height 0.2s ease, opacity 0.7s ease;
+}
+
+.show-warning {
+    opacity: 1;
+    height: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .item-login {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .form-login {
+        width: 100%;
+    }
+}

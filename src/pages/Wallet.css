@@ -1,0 +1,9 @@
+.wallet-container {
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    .wallet-container {
+        padding: 0 30px;
+    }
+}
