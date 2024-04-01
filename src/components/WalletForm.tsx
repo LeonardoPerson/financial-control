@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { currenciesThunks, exchangeRatesThunks } from '../redux/thunks';
 import { loadingInformation } from '../utils';
-import { addExpense, confirmEditExpense, resetEditor } from '../redux/actions';
+import { addExpense, confirmEditExpense, resetEditor } from '../redux/actions/walletActions';
 import WalletFormFields from './WalletFormFields';
 import { Wallet, InputValues, INITIAL_INPUT_VALUES } from '../types';
 

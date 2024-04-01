@@ -1,4 +1,5 @@
-import actionsType from "../redux/actions/actionsTypes";
+import walletActionTypes from "../redux/actions/walletActions/walletActionTypes";
+import userActionTypes from "../redux/actions/userActions/userActionTypes";
 /*User types -------------------------------------------------------------------------*/ 
 export type User = {
   email: string
@@ -90,23 +91,23 @@ interface ActionInfo {
 }
 
 export interface AddUserAction extends ActionInfo {
-  type: typeof actionsType.ADD_USER;
+  type: typeof userActionTypes.ADD_USER;
   email: string;
 }
 
 export interface AddExpenseAction extends ActionInfo {
-  type: typeof actionsType.ADD_EXPENSE;
+  type: typeof walletActionTypes.ADD_EXPENSE;
   expense: Expense;
 }
 
 export interface EditExpenseAction extends ActionInfo {
-  type: typeof actionsType.EDIT_EXPENSE;
+  type: typeof walletActionTypes.EDIT_EXPENSE;
   idToEdit: number;
   editor: boolean;
 }
 
 export interface ConfirmEditExpenseAction extends ActionInfo {
-  type: typeof actionsType.CONFIRM_EDIT_EXPENSE;
+  type: typeof walletActionTypes.CONFIRM_EDIT_EXPENSE;
   idToEdit: number;
   editor: boolean;
   wallet: Expense;
@@ -114,49 +115,49 @@ export interface ConfirmEditExpenseAction extends ActionInfo {
 }
 
 export interface ResetEditorAction extends ActionInfo {
-  type: typeof actionsType.RESET_EDITOR;
+  type: typeof walletActionTypes.RESET_EDITOR;
   editor: boolean;
 }
 
 export interface RemoveExpenseAction extends ActionInfo {
-  type: typeof actionsType.REMOVE_EXPENSE;
+  type: typeof walletActionTypes.REMOVE_EXPENSE;
   expenseId: number;
   subtractFromTheTotalExpense: number;
 }
 
 export interface ShowTotalExpenseAction extends ActionInfo {
-  type: typeof actionsType.SHOW_TOTAL_EXPENSE;
+  type: typeof walletActionTypes.SHOW_TOTAL_EXPENSE;
   totalExpense: number;
 }
 
 export interface StartFetchCurrenciesAction extends ActionInfo {
-  type: typeof actionsType.FETCH_CURRENCIES;
+  type: typeof walletActionTypes.FETCH_CURRENCIES;
 }
 
 export interface SuccessReturnCurrenciesAction extends ActionInfo {
-  type: typeof actionsType.SUCCESS_RETURN_CURRENCIES;
+  type: typeof walletActionTypes.SUCCESS_RETURN_CURRENCIES;
   currenciesApiData: ExchangeRatesApiData;
   currenciesApiSuccess: boolean;
 }
 
 export interface ErrorReturnCurrenciesAction extends ActionInfo {
-  type: typeof actionsType.ERROR_RETURN_CURRENCIES;
+  type: typeof walletActionTypes.ERROR_RETURN_CURRENCIES;
   currenciesApiErrorMessage: string;
   currenciesApiError: boolean;
 }
 
 export interface StartFetchExchangeRatesAction extends ActionInfo {
-  type: typeof actionsType.FETCH_EXCHANGE_RATES;
+  type: typeof walletActionTypes.FETCH_EXCHANGE_RATES;
 }
 
 export interface SuccessReturnExchangeRatesAction extends ActionInfo {
-  type: typeof actionsType.SUCCESS_RETURN_EXCHANGE_RATES;
+  type: typeof walletActionTypes.SUCCESS_RETURN_EXCHANGE_RATES;
   exchangeRatesApiData: ExchangeRatesApiData;
   exchangeRatesApiSuccess: boolean;
 }
 
 export interface ErrorReturnExchangeRatesAction extends ActionInfo {
-  type: typeof actionsType.ERROR_RETURN_EXCHANGE_RATES;
+  type: typeof walletActionTypes.ERROR_RETURN_EXCHANGE_RATES;
   exchangeRatesErrorApiMessage: string;
   exchangeRatesApiError: boolean;
 }

@@ -1,5 +1,5 @@
 // Esse reducer será responsável por tratar o todas as informações relacionadas as despesas
-import actionsType from '../actions/actionsTypes';
+import actionsType from '../../actions/walletActions/walletActionTypes';
 import walletInitialState from './walletInitialState';
 import {
   addExpenseData,
@@ -12,7 +12,7 @@ import {
   errorReturnExchangeRatesData,
   resetEditorData,
 } from './walletData';
-import { Action } from '../../types';
+import { Action } from '../../../types';
 
 export default function walletReducer(prevState = walletInitialState, action: Action) {
   switch (action.type) {

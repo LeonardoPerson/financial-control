@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Button } from '@mui/material';
-import { editExpense, removeExpense } from '../redux/actions';
+import { editExpense, removeExpense } from '../redux/actions/walletActions';
 import { Wallet, Expense } from '../types';
 import './Table.css';
 

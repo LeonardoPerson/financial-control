@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import user from './user';
-import wallet from './wallet';
+import user from './user/user';
+import wallet from './wallet/wallet';
 
 const reducer = combineReducers({ user, wallet });
 

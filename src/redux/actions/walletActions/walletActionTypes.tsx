@@ -1,4 +1,4 @@
-const actionsType = {
+const walletActionTypes = {
   ADD_USER: 'ADD_USER',
   ADD_EXPENSE: 'ADD_EXPENSE',
   EDIT_EXPENSE: 'EDIT_EXPENSE',
@@ -14,6 +14,6 @@ const actionsType = {
   ERROR_RETURN_EXCHANGE_RATES: 'ERROR_RETURN_EXCHANGE_RATES',
 } as const;
 
-export default actionsType;
+export default walletActionTypes;
 
 

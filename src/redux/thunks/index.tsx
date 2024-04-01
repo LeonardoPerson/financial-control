@@ -6,7 +6,7 @@ import {
   startFetchExchangeRates,
   successReturnCurrencies,
   successReturnExchangeRates,
-} from '../actions';
+} from '../actions/walletActions';
 import { ExchangeRatesApiData, AppAction } from '../../types';
 import { Dispatch } from 'redux';
 

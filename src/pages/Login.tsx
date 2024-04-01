@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, TextField } from '@mui/material';
 import { useDispatch } from 'react-redux';
 import { Navigate } from 'react-router-dom';
-import { addUser } from '../redux/actions';
+import { addUser } from '../redux/actions/userActions';
 import { emailValidationTest, passwordValidationTest } from '../utils';
 import './Login.css';
 

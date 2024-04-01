@@ -1,5 +1,5 @@
-import { deletePropertyFromObject, generateCurrencies } from '../../utils';
-import { Wallet, Action } from '../../types';
+import { deletePropertyFromObject, generateCurrencies } from '../../../utils';
+import { Wallet, Action } from '../../../types';
 
 const totalConvertedValue = (prevState: Wallet, action: Action) => {
   const actualConvertedValue = action.expense.convertedValue;

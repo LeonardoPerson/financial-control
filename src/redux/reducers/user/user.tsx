@@ -1,5 +1,5 @@
 // Esse reducer será responsável por tratar as informações da pessoa usuária
-import ActionType from '../actions/actionsTypes';
+import ActionType from '../../actions/walletActions/walletActionTypes';
 import userInitialState from './userInitialState';
 
 type Action = {
