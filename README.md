@@ -1,4 +1,4 @@
- - Esta é uma aplicação projetada para ajudar no controle financeiro, permitindo o registro e acompanhamento dos gastos;
+ - Esta é uma aplicação feita em React projetada para ajudar no controle financeiro, permitindo o registro e acompanhamento dos gastos;
  - O projeto conta com uma página de login, onde deve ser inserido um formato válido de e-mail e senha contendo pelo menos 6 caracteres com ao menos uma letra maiúscula.
  - A página interna mostra a relação de gastos inseridos pelo formulário superior;
  - O principal objetivo desta aplicação é guardar uma referência sobre como aplicar Redux e Typescript em qualquer outro projeto. É possível adicionar dados no estado global, modificar ou excluir esses dados.  
