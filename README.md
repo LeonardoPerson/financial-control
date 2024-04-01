@@ -5,7 +5,8 @@
  - Uma api pública (https://economia.awesomeapi.com.br/json/all) é utilizada para consulta e cálculo de valores de câmbio para conversão de moeda;
  - Os campos da página de login possuem validação para que recebam o formato correto de dado conforme o tipo de input, sendo um para e-mail e outro para a senha. Caso o formato seja inválido, o redirect não ocorre para a aplicação; Não há de fato um sistema de login, o objetivo é apenas manter uma referência para validação de campos;
 
-![alt text](image-2.png)
+![image](https://github.com/LeonardoPerson/financial-control/assets/47126491/f8cd453b-25ab-4ea9-9bd9-51f1ed70d4c7)
+
 
 ![alt text](image.png)
 
