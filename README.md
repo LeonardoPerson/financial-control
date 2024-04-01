@@ -14,6 +14,9 @@ Versão mobile:
 
 ![image](https://github.com/LeonardoPerson/financial-control/assets/47126491/cb464c37-58a3-4e7f-bc43-585eecf214dc)
 
+![image](https://github.com/LeonardoPerson/financial-control/assets/47126491/7bf1b2f4-8e13-40b9-9aac-3d1f056fe0e7)
+
+
 
 
 ## Available Scripts
